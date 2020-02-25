@@ -7,6 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     height: 100vh;
+    overflow: hidden;
 }
 
 /*styling the header*/
@@ -112,7 +113,6 @@ input:focus {
 
 .search-button1:hover, .search-button2:hover {
     color: black;
-    padding: 11px;
     -webkit-box-shadow: 0px 0px 5px 0px #1a1aff;;
 	-moz-box-shadow: 0px 0px 5px 0px #1a1aff;;
 	box-shadow: 0px 0px 5px 0px #1a1aff;
@@ -142,12 +142,12 @@ input:focus {
     position: relative;
     top: 210px;
     color: #666053;
-    border-top: 1px solid rgba(0, 0, 0, 0.54);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.54);
+    border-top: 1px solid #a3abb8;
+    border-bottom: 1px solid #a3abb8;
     background-color: #e3e2e1;
-    height: 40px;
-    padding-top: 10px;
-    padding-left: 30px;
+    height: 50px;
+    padding: 15px 0 0 30px;
+    margin-top: 118px;
 }
 
 .nav {
@@ -161,7 +161,7 @@ input:focus {
     display: inline;
     float: right;
     position: relative;
-    top: 7px;
+    top: 5px;
     margin-right: 30px;
 }
 
